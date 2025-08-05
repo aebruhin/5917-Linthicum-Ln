@@ -9,13 +9,13 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background: #fff;
+      background: #f9f9f9;
       color: #333;
     }
     header {
       background-color: #2a4365;
       color: white;
-      padding: 1rem;
+      padding: 1.5rem;
       text-align: center;
     }
     .gallery {
@@ -24,6 +24,7 @@
       justify-content: center;
       padding: 1rem;
       gap: 10px;
+      background-color: #edf2f7;
     }
     .gallery img {
       width: 300px;
@@ -31,9 +32,22 @@
       border-radius: 8px;
     }
     .info {
-      padding: 1rem;
+      padding: 2rem;
       max-width: 800px;
       margin: auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .info h2 {
+      color: #2a4365;
+    }
+    .info ul {
+      margin-top: 1rem;
+      padding-left: 1.5rem;
+    }
+    .info ul li {
+      margin-bottom: 0.5rem;
     }
     .lead-form {
       margin-top: 2rem;
@@ -43,11 +57,15 @@
       width: 100%;
     }
     footer {
-      background: #f4f4f4;
+      background: #2a4365;
+      color: white;
       text-align: center;
       padding: 1rem;
       margin-top: 2rem;
       font-size: 0.9rem;
+    }
+    a {
+      color: #2b6cb0;
     }
   </style>
 </head>
@@ -68,16 +86,25 @@
 
   <div class="info">
     <h2>Welcome Home</h2>
-    <p>This stunning home in Twin Oaks offers flexible living across 4 finished levels. With fresh updates, a new roof, and thoughtful upgrades throughout, this home is truly move-in ready. Enjoy a 1% lender credit and 1-year home warranty when you work with the seller’s preferred lender and title!</p>
-    <p><strong>Listed at:</strong> $509,000</p>
-    <p><strong>Questions? Want to tour?</strong> Call/text Amanda at <a href="tel:2033124714">203-312-4714</a> or email <a href="mailto:aebruhin@kw.com">aebruhin@kw.com</a></p>
-    <p>Who do you know looking in the area? If this one isn't for you, let me know what you're looking for — I'd be happy to send new listings as they come up!</p>
-  </div>
+    <ul>
+      <li>Located in desirable Twin Oaks neighborhood</li>
+      <li>4 finished levels with flexible living options</li>
+      <li>Separate entrance on lower level ideal for in-laws or guests</li>
+      <li>Brand-new roof (April 2025)</li>
+      <li>Fresh paint, updated flooring and fixtures</li>
+      <li>Spacious screened porch and level backyard</li>
+      <li>Offered at: <strong>$509,000</strong></li>
+      <li>1% lender credit + 1-year home warranty with preferred lender/title</li>
+    </ul>
+    <p><strong>Questions or want to schedule a tour?</strong></p>
+    <p>Call/text Amanda at <a href="tel:2033124714">203-312-4714</a> or email <a href="mailto:aebruhin@kw.com">aebruhin@kw.com</a></p>
+    <p>Who do you know looking in the area? If this one isn't for you, let me know your home search criteria and I'll send updates as soon as new listings go live!</p>
 
-  <section class="info lead-form">
-    <h3>Get More Info or Book a Showing</h3>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfL5IGujK6906EQnrGVuHTKQuFmOZTwACwdkwCz_JfzVZ-UtA/viewform?embedded=true" height="800">Loading…</iframe>
-  </section>
+    <div class="lead-form">
+      <h3>Get More Info or Book a Showing</h3>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfL5IGujK6906EQnrGVuHTKQuFmOZTwACwdkwCz_JfzVZ-UtA/viewform?embedded=true" height="800">Loading…</iframe>
+    </div>
+  </div>
 
   <footer>
     &copy; 2025 Amanda Bruhin | All rights reserved.
